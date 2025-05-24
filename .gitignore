@@ -1,0 +1,36 @@
+# Node.js - Ignore for both backend and frontend
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# OS / IDE / Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Frontend build output (if using Vite/React or similar)
+frontend/build/
+frontend/.next/
+frontend/.turbo/
+
+# Backend build output (if compiled)
+backend/build/
+backend/dist/
+backend/*.log
+
+# Testing coverage reports
+**/coverage/
+
+# Misc
+*.local
