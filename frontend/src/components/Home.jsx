@@ -14,10 +14,21 @@ const Home = () => {
       {/* Main content */}
       <div className="text-center max-w-2xl">
         <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-[1000] tracking-tight" style={{ fontFamily: "'Fredoka', sans-serif" }}>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-            BUZZ
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 cursor-pointer inline-block scale-100 transition-transform duration-300 ease-in-out hover:scale-150">
+            B
           </span>
-          <span className="text-white">IN</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 cursor-pointer inline-block scale-100 transition-transform duration-300 ease-in-out hover:scale-150">
+            U
+          </span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 cursor-pointer inline-block scale-100 transition-transform duration-300 ease-in-out hover:scale-150">
+            Z
+          </span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 cursor-pointer inline-block scale-100 transition-transform duration-300 ease-in-out hover:scale-150">
+            Z
+          </span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r text-white cursor-pointer inline-block scale-100 transition-transform duration-300 ease-in-out hover:scale-150">
+             IN
+          </span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-12" style={{ fontFamily: "'Baloo 2', sans-serif" }}>
