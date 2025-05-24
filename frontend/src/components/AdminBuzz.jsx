@@ -58,7 +58,7 @@ const AdminBuzz = () => {
   const [buzzEnabled, setBuzzEnabled] = useState(false);
   const socketRef = useRef(null);
 
-  const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = "https://buzz-in.onrender.com";
 
   useEffect(() => {
     let isMounted = true;

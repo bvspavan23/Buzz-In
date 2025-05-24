@@ -56,7 +56,7 @@ const Buzz = () => {
   const buttonRef = useRef(null);
   const confettiFiredRef = useRef(false);
 
-  const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = "https://buzz-in.onrender.com";
 
   const launchConfetti = () => {
     if (confettiFiredRef.current) return;  

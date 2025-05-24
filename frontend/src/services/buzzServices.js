@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://buzz-in.onrender.com";
 import { getUserFromStorage } from "../utils/getUserFromStorage";
 const token = getUserFromStorage();
 export const buzzAPI = async (id) => {
